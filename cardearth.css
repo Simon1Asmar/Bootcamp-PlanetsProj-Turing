@@ -1,7 +1,8 @@
 @media(max-width:412px){
     body{
-        background-color: black
-    } ;
+        background-color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } 
     .Earth{
         height: 915px;
         background-color: rgb(0, 0, 0);
