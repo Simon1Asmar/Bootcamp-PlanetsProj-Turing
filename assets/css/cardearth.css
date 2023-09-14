@@ -1,4 +1,4 @@
-@media(max-width:412px){
+/* @media(max-width:412px){ */
     body{
         background-color: black;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,12 +12,12 @@
     .pco{
         background-color: rgb(19, 19, 56);
     }
-    h1{
+    .pco h1{
         color: white;
         font-size: 50px;
     
     }
-    p{
+    .pco p{
         color:white;
         font-size: 20px;
      
@@ -29,7 +29,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(earth\ image.jpg);
+        background-image:url(./../img/thumbnails/earth.jpg);
       background-size: cover;
     }
     .num3
@@ -38,7 +38,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(OIP.jpg);
+        background-image:url(./../img/thumbnails/mercury.jpg);
       background-size: cover;
     }
     .num4
@@ -47,7 +47,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(venos.jpg);
+        background-image:url(./../img/thumbnails/venos.jpg);
       background-size: cover;
     }
     .num5
@@ -56,7 +56,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(R.jpg);
+        background-image:url(./../img/thumbnails/mars.jpg);
       background-size: cover;
     }
     .num6
@@ -65,7 +65,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(a.png);
+        background-image:url(./../img/thumbnails/jupiter.png);
       background-size: cover;
     }
     .num7
@@ -74,7 +74,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(saturn.jpg);
+        background-image:url(./../img/thumbnails/saturn.jpg);
       background-size: cover;
     }
     .num8
@@ -83,7 +83,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(urans.png);
+        background-image:url(./../img/thumbnails/urans.png);
       background-size: cover;
     }
     .num9
@@ -92,7 +92,7 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(neptun.jpg);
+        background-image:url(./../img/thumbnails/neptun.jpg);
       background-size: cover;
     }
     .num10
@@ -101,7 +101,16 @@
      
         border-radius: 25px;
         height: 400px;
-        background-image:url(moon.jpg);
-      background-size: cover;
+        background-image:url(./../img/thumbnails/moon.jpg);
+        background-size: cover;
     }
-}
+    .num11
+    { 
+     
+     
+        border-radius: 25px;
+        height: 400px;
+        background-image:url(./../img/thumbnails/pluto.jpg);
+        background-size: cover;
+    }
+/* } */

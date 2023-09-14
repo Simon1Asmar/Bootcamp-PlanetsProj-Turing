@@ -10,12 +10,12 @@
 
 .tableSection table, .tableSection th, .tableSection td{
   border: 1px solid;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   text-align: center;
 }
 .tableSection th, .tableSection td{
   border: 1px solid;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   text-align: center;
   padding: 10px;
 }
