@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Template Page</title>
   <link rel="stylesheet" href="./assets/css/rotating-planet.css">
-  <link rel="stylesheet" href="assets/css/tableStyle.css">
+  <link rel="stylesheet" href="./assets/css/tableStyle.css">
+  <!-- <link rel="stylesheet" href="style-mira.css"> -->
+  <link rel="stylesheet" href="./assets/css/mira-css/mira-mars.css">
 </head>
+
 <body>
+
+  <nav id="navbar">
+    <a href="./index.html">
+      <img class="logo" src="https://solarsystem.nasa.gov/assets/logo_nasa_duo@2x.png" alt="logo" />
+    </a>
+  </nav>
+
   <!-- Planet Section -->
   <section class="planetSection">
     <section id="marsRot" class="rotatingPlanet"></section>
     <h1>Mars</h1>
   </section>
-  
+
   <!-- Table Section -->
   <section class="tableSection">
     <table>
@@ -75,7 +86,7 @@
           Length of Day (hours)
         </td>
         <td>
-        24.7 
+          24.7
         </td>
       </tr>
       <tr>
@@ -83,7 +94,7 @@
           Distance from Sun (10<span class="power">6</span> km)
         </td>
         <td>
-         228.0 
+          228.0
         </td>
       </tr>
       <tr>
@@ -115,7 +126,7 @@
           Orbital Velocity (km/s)
         </td>
         <td>
-         24.1 
+          24.1
         </td>
       </tr>
       <tr>
@@ -123,7 +134,7 @@
           Orbital Inclination (degrees)
         </td>
         <td>
-         1.8 
+          1.8
         </td>
       </tr>
       <tr>
@@ -185,6 +196,35 @@
     </table>
   </section>
 
-  </section>
+  <div class="wrapper">
+    ​
+    ​
+    <div class="key-wrap"></div>
+    <div class="pie-wrap">
+      ​
+      <div class="light-yellow entry">
+        <p>95%</p>
+        <p class="entry-value">Co2</p>
+      </div>
+
+      <div class="sky-blue entry">
+        <p>3%</p>
+        <p class="entry-value">N2</p>
+      </div>
+
+      <div class="pink entry">
+        <p>1.5%</p>
+        <p class="entry-value">Ar</p>
+      </div>
+
+      <div class="purple entry">
+        <p>0.5%</p>
+        <p class="entry-value">Other Gases</p>
+      </div>
+
+    </div>
+
+    </section>
 </body>
+
 </html>
