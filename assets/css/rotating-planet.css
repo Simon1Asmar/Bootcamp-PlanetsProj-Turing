@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rotatingPlanet{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset;
+  animation: spin 30s linear alternate infinite;
+}
+
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+
+.planetSection{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  background-image: url(./../img/2D-Maps/00-bg-start.jpg);
+}
+
+.planetSection h1{
+  font-size: 40px;
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mercuryRot{
+  background-image: url(./../img/2D-Maps/01-mercury.jpg);
+}
+
+#venusRot{
+  background-image: url(./../img/2D-Maps/02-venus.jpg);
+}
+
+#earthRot{
+  background-image: url(./../img/2D-Maps/03-earth.jpg);
+}
+
+#moonRot{
+  background-image: url(./../img/2D-Maps/04-moon.jpg);
+}
+
+#marsRot{
+  background-image: url(./../img/2D-Maps/05-mars.jpg);
+}
+
+#jupiterRot{
+  background-image: url(./../img/2D-Maps/06-jupiter.jpg);
+}
+
+#saturnRot{
+  background-image: url(./../img/2D-Maps/07-saturn.jpg);
+}
+
+#uranusRot{
+  background-image: url(./../img/2D-Maps/08-uranus.jpg);
+}
+
+#neptuneRot{
+  background-image: url(./../img/2D-Maps/09-neptune.jpg);
+}
+
+#plutoRot{
+  background-image: url(./../img/2D-Maps/10-pluto.png);
+}
+
