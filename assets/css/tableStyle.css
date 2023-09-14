@@ -1,0 +1,38 @@
+.tableSection{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 30px 0px;
+}
+
+.tableSection table, .tableSection th, .tableSection td{
+  border: 1px solid;
+  border-radius: 25px;
+  text-align: center;
+}
+.tableSection th, .tableSection td{
+  border: 1px solid;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.tableSection table {
+  border: 1px solid;
+  width: 80vw;
+  border-collapse: collapse;
+  
+}
+
+.tableSection tr:nth-child(2n){
+  background-color: rgb(35, 37, 39);
+}
+
+.power{
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 0.2rem;
+}

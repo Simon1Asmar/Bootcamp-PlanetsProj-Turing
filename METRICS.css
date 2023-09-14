@@ -1,0 +1,92 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 50%;
+    color: black;
+    overflow: hidden;
+}
+
+.sky-blue{
+    background-color: lightskyblue;
+    height:50%;
+    width: 50%;
+    display: block;
+    clip-path:polygon(0% 100%, 150% 0%, 100%);
+
+}
+
+.pie-wrap .sky-blue p{
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+
+.pie-wrap .sky-blue p:first-child{
+    top: 150px;
+    left:100px;
+}
+
+.pink{
+    background-color: pink;
+    height:50%;
+    width: 50%;
+    display: block;
+}
+
+.pie-wrap .pink p{
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+
+.pie-wrap .pink p:first-child{
+    top: 150px;
+    left:100px;
+}
+
+.purple{
+    background-color: purple;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    clip-path:polygon(0% 100%, 100% 0%, 100% 100%);
+
+}
+
+.pie-wrap .purple p{
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+
+.pie-wrap .purple p:first-child{
+    top: 150px;
+    left:100px;
+}
