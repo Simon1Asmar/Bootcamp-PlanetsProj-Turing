@@ -13,6 +13,12 @@
   border-radius: 25px;
   text-align: center;
 }
+.tableSection th, .tableSection td{
+  border: 1px solid;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
 
 .tableSection table {
   border: 1px solid;
@@ -21,7 +27,7 @@
   
 }
 
-tr:nth-child(2n){
+.tableSection tr:nth-child(2n){
   background-color: rgb(35, 37, 39);
 }
 
